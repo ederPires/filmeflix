@@ -21,7 +21,7 @@ export default function Filmes({ data }) {
         </TouchableOpacity>
       </View>
 
-      <Modal transparent={true} animationType="slide" visible={visibleModal}>
+      <Modal transparent={true} animationType="slide-up" visible={visibleModal}>
         <Detalhes filme={data} voltar={() => setVisibleModal(false) } />
       </Modal>
 
