@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'flex-end'
+    justifyContent: 'flex-start'
   },
   modalContainer: {
     //width: '90%',
